@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E7EBFB;
+}
+h1{
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #303030;
+    margin: 15px 70px;
+    font-size: 50px;
+}
+h1::selection{
+    color: #0F2440;
+    background-color: #D9F2D5;
+}
+h2{
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #303030;
+    margin: 15px 70px;
+    font-size: 30px;
+}
+h2::selection{
+    color: #0F2440;
+    background-color:  #D9F2D5;
+}
+h3{
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #303030;
+    margin: 5px;
+    font-size:20 ;
+}
+h3::selection{
+    color: #0F2440;
+    background-color:  #D9F2D5;
+}
+h5{
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color:#C8F0C2;
+    margin: 15px;
+    text-align:center;
+}
+h5::selection{
+    color: #0F2440;
+    background-color:  #D9F2D5;
+}
+p{
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #303030;
+    margin: 0px 100px 5px 25px;
+    font-size: 20px;
+}
+p::selection{
+    color: #0F2440;
+    background-color: #D9F2D5;
+}
+.galery {
+    width: 640px;
+    height: 360px;
+    background-color: black;
+    overflow: hidden;
+}
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.galery .fotos img {
+    width: 19.9%;
+}
+/*cabecalho*/
+.cabecalho{
+    width: 100%;
+    background-color: #0F2440;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 10px solid #B4D9B6;
+}
+.logo img{
+    width: 170px;
+    height: 68p
+}
+.menu li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+.menu li a{
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    color: #327361;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.menu li a:hover{
+    background-color: #B4D9B6;
+}
+.banner img{
+    width: 100%;
+}
+/*carrosel_de_img*/
+.container { 
+    width: 100%; height: 120%; display: grid; grid-template-rows: 400px  auto 50px;
+}
+.main {
+ display: flex; align-items: center; justify-content: center; 
+}
+/*Página index*/
+.bloco_primeira_pagina{
+    background-color: #5DA68B;
+    width: 1500px;
+    height: 1500px;
+    margin: 15px 10px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.rodape{
+    background-color:#0F2440;
+    width: 100%;
+    height: 60px;
+    padding: 25px;
+}
+
+/*Página mito*/
+.bloco_segunda_pagina{
+    background-color: #5DA68B;
+    width: 1400px;
+    height: 200px;
+    margin: 30px 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.bloco_segunda_pagina2{
+    background-color: #5DA68B;
+    width: 1400px;
+    height: 200px;
+    margin: 30px 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+.bloco_segunda_pagina3{
+    background-color: #5DA68B;
+    width: 1400px;
+    height: 200px;
+    margin: 30px 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+.imagem img{
+    margin: 5px 380px;
+}
+.bloco_segunda_pagina4{
+    background-color: #5DA68B;
+    width: 1400px;
+    height: 200px;
+    margin: 30px 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+.bloco_segunda_pagina5{
+    background-color: #5DA68B;
+    width: 1400px;
+    height: 200px;
+    margin: 30px 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.bloco_segunda_pagina6{
+    background-color: #5DA68B;
+    width: 1400px;
+    height: 200px;
+    margin: 30px 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+/*Página sintomas*/
+.bloco_img{
+    background-color: #5DA68B;
+    width: 50%;
+    height: 780px;
+    margin: 20px 380px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.bloco_img img{
+    align-items: center;
+}
+.bloco_prevencao{
+    background-color: #5DA68B;
+    width: 1440px;
+    height: 1750px;
+    margin: 15px 40px;
+    padding: 50px 70px;
+    border-radius: 10px;
+}
+.passo_a_passo img {
+    width: 40%;
+    margin: 25px 380px;
+}
+.distancia img{
+    margin: 20px 380px ;
+}
+.bloco_eu{
+    background-color: #5DA68B;
+    width: 600px;
+    height: 700px;
+    margin: 30px 380px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.eu img{
+    width: 100%;
+}
+
+
